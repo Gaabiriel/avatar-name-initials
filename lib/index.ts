@@ -1,8 +1,8 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
     selector: 'avatar-name',
-    template: '<span class="gavatar" attr.aria-label="{{name}}">{{initials}}</span>',
+    template: '<span class="gavatar">{{initials}}</span>',
     styles: [`
     .gavatar    {
         color: white;
@@ -19,7 +19,7 @@ import { Component, Input } from '@angular/core';
         }  
   `]
 })
-export class AvatarNameInitialsComponent {
+export class AvatarNameInitialsComponent implements OnInit {
     @Input() name: string;
     initials: string = "";
 

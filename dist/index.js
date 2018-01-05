@@ -36,7 +36,7 @@ var AvatarNameInitialsComponent = /** @class */ (function () {
     AvatarNameInitialsComponent = __decorate([
         core_1.Component({
             selector: 'avatar-name',
-            template: '<span class="gavatar" attr.aria-label="{{name}}">{{initials}}</span>',
+            template: '<span class="gavatar">{{initials}}</span>',
             styles: ["\n    .gavatar    {\n        color: white;\n        background-color: #c6c699;\n        display: inline-block;\n        font-family: Arial,\"Helvetica Neue\",Helvetica,sans-serif;\n        font-size: 14px;\n        border-radius: 80px;\n        width: 40px;\n        height: 36px;\n        line-height: 39px;\n        margin: 15px;\n        text-align: center;\n        }  \n  "]
         })
     ], AvatarNameInitialsComponent);
