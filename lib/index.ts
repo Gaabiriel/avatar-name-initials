@@ -12,7 +12,7 @@ import { Component, Input, OnInit } from '@angular/core';
         font-size: 14px;
         border-radius: 80px;
         width: 40px;
-        height: 36px;
+        height: 36px;   
         line-height: 39px;
         margin: 15px;
         text-align: center;

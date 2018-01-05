@@ -2,7 +2,8 @@
   "name": "avatar-name-initials",
   "version": "1.0.5",
   "description": "A node.js component that return the name's initials inside an avatar",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "build",
     "build": "tsc"
@@ -22,8 +23,10 @@
     "url": "https://github.com/Gaabiriel/avatar-name-initials/issues"
   },
   "homepage": "https://github.com/Gaabiriel/avatar-name-initials#readme",
-  "dependencies": {
-    "@angular/core": "^5.1.3",
+  "devDependencies": {
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "@angular/core": "^5.1.3"
   }
 }
