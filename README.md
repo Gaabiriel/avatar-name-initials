@@ -42,3 +42,6 @@ export class ExampleComponent {
 
 ```
 
+## Output 
+
+![alt text](https://user-images.githubusercontent.com/35075988/34606447-8a4a2c00-f1f6-11e7-8414-10b0d4bc00b5.png)
