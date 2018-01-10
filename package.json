@@ -5,8 +5,10 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "test": "build",
-    "build": "tsc"
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/bundles/avatarnameinitials.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/avatarnameinitials.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,16 @@
   },
   "homepage": "https://github.com/Gaabiriel/avatar-name-initials#readme",
   "devDependencies": {
-    "typescript": "^2.6.2"
+    "@angular/compiler": "^5.1.3",
+    "@angular/compiler-cli": "^5.1.3",
+    "rollup": "^0.53.4",
+    "typescript": "^2.6.2",
+    "uglify-js": "^3.3.5"
   },
   "dependencies": {
-    "@angular/core": "^5.1.3"
+    "@angular/common": "^5.1.3",
+    "@angular/core": "^5.1.3",
+    "@angular/platform-browser": "^5.1.3",
+    "@angular/platform-browser-dynamic": "^5.1.3"
   }
 }
