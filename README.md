@@ -13,13 +13,13 @@ npm install avatar-name-initials --save
 #### ExampleModule
 
 ```typescript
-import { AvatarNameInitialsComponent } from 'avatar-name-initials';
+import { AvatarNameInitialsModule } from 'avatar-name-initials';
 
-  declarations: [
-    AvatarNameInitialsComponent
+  imports: [
+    AvatarNameInitialsModule
   ],
   exports: [
-    AvatarNameInitialsComponent
+    AvatarNameInitialsModule
   ]
  ```
  
