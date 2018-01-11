@@ -6,8 +6,7 @@
  */ 
 import * as i0 from "@angular/core";
 import * as i1 from "./avatar-name-initials.module";
-import * as i2 from "./avatar-name-initials.component.ngfactory";
-import * as i3 from "@angular/common";
-var AvatarNameInitialsModuleNgFactory = i0.ɵcmf(i1.AvatarNameInitialsModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i2.AvatarNameInitialsComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(4608, i3.NgLocalization, i3.NgLocaleLocalization, [i0.LOCALE_ID, [2, i3.ɵa]]), i0.ɵmpd(512, i3.CommonModule, i3.CommonModule, []), i0.ɵmpd(512, i1.AvatarNameInitialsModule, i1.AvatarNameInitialsModule, [])]); });
+import * as i2 from "@angular/common";
+var AvatarNameInitialsModuleNgFactory = i0.ɵcmf(i1.AvatarNameInitialsModule, [], function (_l) { return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, []], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]), i0.ɵmpd(4608, i2.NgLocalization, i2.NgLocaleLocalization, [i0.LOCALE_ID, [2, i2.ɵa]]), i0.ɵmpd(512, i2.CommonModule, i2.CommonModule, []), i0.ɵmpd(512, i1.AvatarNameInitialsModule, i1.AvatarNameInitialsModule, [])]); });
 export { AvatarNameInitialsModuleNgFactory as AvatarNameInitialsModuleNgFactory };
 //# sourceMappingURL=avatar-name-initials.module.ngfactory.js.map

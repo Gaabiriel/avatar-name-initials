@@ -11,9 +11,6 @@ import { AvatarNameInitialsComponent } from "./avatar-name-initials.component";
     ],
     exports: [
         AvatarNameInitialsComponent
-    ],
-    entryComponents: [
-        AvatarNameInitialsComponent
     ]
 })
 

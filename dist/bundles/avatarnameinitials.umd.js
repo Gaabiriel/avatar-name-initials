@@ -58,9 +58,6 @@ var AvatarNameInitialsModule = /** @class */ (function () {
                     ],
                     exports: [
                         AvatarNameInitialsComponent
-                    ],
-                    entryComponents: [
-                        AvatarNameInitialsComponent
                     ]
                 },] },
     ];
