@@ -17,9 +17,6 @@ import { AvatarNameInitialsModule } from 'avatar-name-initials';
 
   imports: [
     AvatarNameInitialsModule
-  ],
-  exports: [
-    AvatarNameInitialsModule
   ]
  ```
  
