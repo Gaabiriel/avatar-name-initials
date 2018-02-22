@@ -1,6 +1,6 @@
 {
     "name": "avatar-name-initials",
-    "version": "2.0.2",
+    "version": "2.0.3",
     "description": "A node.js component that return the name's initials inside an avatar",
     "main": "bundles/avatarnameinitials.umd.js",
     "module": "index.js",
