@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-    selector: 'avatar-names',
+    selector: 'avatar-name',
     template: '<span class="gavatar" [hidden]="isHidden">{{initials}}</span>',
     styles: [`
     .gavatar    {
