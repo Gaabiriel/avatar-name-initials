@@ -10,7 +10,7 @@ var styles_AvatarNameInitialsComponent = [".gavatar[_ngcontent-%COMP%]    {\n   
 var RenderType_AvatarNameInitialsComponent = i0.ɵcrt({ encapsulation: 0, styles: styles_AvatarNameInitialsComponent, data: {} });
 export { RenderType_AvatarNameInitialsComponent as RenderType_AvatarNameInitialsComponent };
 export function View_AvatarNameInitialsComponent_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 1, "span", [["class", "gavatar"]], [[8, "hidden", 0]], null, null, null, null)), (_l()(), i0.ɵted(1, null, ["", ""]))], null, function (_ck, _v) { var _co = _v.component; var currVal_0 = _co.isHidden; _ck(_v, 0, 0, currVal_0); var currVal_1 = _co.initials; _ck(_v, 1, 0, currVal_1); }); }
-export function View_AvatarNameInitialsComponent_Host_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 1, "avatar-names", [], null, null, null, View_AvatarNameInitialsComponent_0, RenderType_AvatarNameInitialsComponent)), i0.ɵdid(1, 114688, null, 0, i1.AvatarNameInitialsComponent, [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-var AvatarNameInitialsComponentNgFactory = i0.ɵccf("avatar-names", i1.AvatarNameInitialsComponent, View_AvatarNameInitialsComponent_Host_0, { name: "name" }, {}, []);
+export function View_AvatarNameInitialsComponent_Host_0(_l) { return i0.ɵvid(0, [(_l()(), i0.ɵeld(0, 0, null, null, 1, "avatar-name", [], null, null, null, View_AvatarNameInitialsComponent_0, RenderType_AvatarNameInitialsComponent)), i0.ɵdid(1, 114688, null, 0, i1.AvatarNameInitialsComponent, [], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+var AvatarNameInitialsComponentNgFactory = i0.ɵccf("avatar-name", i1.AvatarNameInitialsComponent, View_AvatarNameInitialsComponent_Host_0, { name: "name" }, {}, []);
 export { AvatarNameInitialsComponentNgFactory as AvatarNameInitialsComponentNgFactory };
 //# sourceMappingURL=avatar-name-initials.component.ngfactory.js.map

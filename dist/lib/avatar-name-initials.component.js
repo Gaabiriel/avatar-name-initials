@@ -39,7 +39,7 @@ var AvatarNameInitialsComponent = /** @class */ (function () {
     };
     AvatarNameInitialsComponent.decorators = [
         { type: Component, args: [{
-                    selector: 'avatar-names',
+                    selector: 'avatar-name',
                     template: '<span class="gavatar" [hidden]="isHidden">{{initials}}</span>',
                     styles: ["\n    .gavatar    {\n        color: white;\n        background-color: black;\n        display: inline-block;\n        font-family: Arial,\"Helvetica Neue\",Helvetica,sans-serif;\n        font-size: 14px;\n        border-radius: 23px;\n        width: 44px;\n        height: 39px;\n        line-height: 39px;\n        margin: 15px;\n        text-align: center\n        }  \n  "]
                 },] },
